@@ -1,14 +1,13 @@
 <script setup>
   // import SimpleCounter from './components/SimpleCounter.vue'; 
-  import CreateTask from './components/CreateTask.vue';
-  import TaskList from './components/TaskList.vue'
+  // import CreateTask from './components/ManageTask.vue';
+  import InbowView from './components/InbowView.vue'
 </script>
 
 <template>
-  <div id="app" class="flex flex-col gap-6 justify-center mx-56">
-    <h1 class="text-3xl font-bold flex justify-start">Taskly</h1>
-    <TaskList />
-    <CreateTask />
+  <div id="app" class="flex flex-col gap-3 justify-center">
+    <!-- <h1 class="text-3xl font-bold flex justify-start">Taskly</h1>  -->
+    <InbowView />
   </div>
 </template>
 
